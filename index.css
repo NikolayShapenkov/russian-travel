@@ -285,8 +285,129 @@
 
   .intro__list_thin {
     font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 284px);
+    grid-template-rows: repeat(3, 1fr);
+    margin: 0 auto 0 auto;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .photo-grid__item {
+    max-width: 100%;
+    object-fit: contain;
+  }
+
+  .places {
+    max-width: 984px;
+    margin: 91px auto 92px auto;
+  }
+
+  .place {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    gap: 80px;
+  }
+
+  .place__article {
+    display: grid;
+    grid-template-columns: 460px auto;
+    gap: 48px 40px;
+    
+  }
+
+  .place__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    margin: 0;
+  }
+
+  .place__website {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+
+  .place__url-heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    color: #AAAAAA;
+  }
+
+  .place__link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+  }
+
+  .place__image {
+    max-width: 100%;
+  }
+
+  .place__paragraphs {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 26px;
+  }
+
+  .place__paragraph {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+  }
+
+  .cover {
+   max-width: 1184px;
+   margin: 0 auto;
+
+  }
+
+  .cover__background {
+    max-width: 100%;
+    align-items: center;
+  }
+
+  .cover__title {
+    max-width: 560px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+  }
+
+  .cover__subtitle {
+    max-width: 360px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
   }
