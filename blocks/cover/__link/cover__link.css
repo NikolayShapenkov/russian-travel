@@ -1,0 +1,27 @@
+.cover__link {
+    display: block;
+    padding: 245px 312px;
+    text-decoration: none;
+    background-color: rgba(42, 44, 47, 0.3);
+    }
+    @media screen and (max-width: 1242px) {
+    .cover__link {
+        padding: 195px 232px;
+    }
+    }
+    @media screen and (max-width: 910px) {
+    .cover__link {
+        padding: 115px 104px;
+    }
+    }
+    @media screen and (max-width: 425px) {
+    .cover__link {
+    padding: 33px 16px;
+    }
+    }
+
+
+   .cover__link:hover {
+    background-color: #2A2C2F;
+    opacity: 0.8;
+}

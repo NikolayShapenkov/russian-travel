@@ -153,7 +153,7 @@
     src: url("./vendor/fonts/Inter-BlackItalic.woff2") format("woff2"),
          url("./vendor/fonts/Inter-BlackItalic.woff") format("woff");
   }
-
+--
 
 
 
@@ -164,6 +164,7 @@
     background-color: #2A2C2F;
     color: #FFFFFF;
   }
+  --
 
   .header {
     display: flex;
@@ -190,12 +191,15 @@
     .header {
     max-width: 288px;
   }
+}
+  
+  @media screen and (max-width: 425px) {
     .header__logo {
     max-width: 142px;
   }
   }
-
-  .header-links {
+--
+  .header__header-links {
     display: flex;
     gap: 18px;
     margin: 18px 0 6px 0;
@@ -233,7 +237,7 @@
   .header__lang-link_active {
     text-decoration: underline;
   }
-
+--
 
   .lead {
     display: flex;
@@ -300,7 +304,8 @@
     font-size: 40px;
     line-height: 44px;
   }
-  }
+}
+  
   
 
    .lead__subtitle {
@@ -343,11 +348,14 @@
   }
   }
 
+  --
+
 
   .lead__image {
     max-width: 100%;
     object-fit: cover;
   }
+  --
 
   .lead__caption {
     align-self: start;
@@ -370,6 +378,8 @@
     margin: 8px 0 0 18px;
   }
   }
+--
+
 
   .intro {
     display: flex;
@@ -514,7 +524,7 @@
   }
   }
 
-  .place {
+  .places__place {
     list-style-type: none;
     display: flex;
     flex-direction: column;

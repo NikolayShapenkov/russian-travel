@@ -1,0 +1,13 @@
+.places__place {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    gap: 80px;
+  }
+  @media screen and (max-width: 970px) {
+    .place {
+    gap: 73px;
+  }
+  }

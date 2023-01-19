@@ -1,0 +1,30 @@
+.footer__copyright {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+  }
+  @media screen and (max-width: 425px) {
+    .footer__copyright {
+    max-width: 186px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: start;
+    padding: 48px 0 16px 0;
+    flex-direction: row;
+  }
+  }
+  @media screen and (max-width: 704px) {
+    .footer__copyright {
+    padding: 64px 118px 24px 0;
+    gap: 24px;
+  }
+  }
