@@ -12,27 +12,18 @@
   @media screen and (max-width: 716px) {
     .footer__copyright {
     padding-top: 20px;
-  }
-  }
-  @media screen and (max-width: 704px) {
-    .footer__copyright {
     gap: 24px;
   }
   }
-  @media screen and (max-width: 440px) {
+  
+  @media screen and (max-width: 425px) {
     .footer__copyright {
     min-width: 220px;
     align-items: flex-start;
-    padding-top: 20px;
-  }
-  }
-  @media screen and (max-width: 425px) {
-    .footer__copyright {
     line-height: 14px;
     text-align: start;
     padding: 48px 0 16px 0;
     flex-direction: row;
-    margin: 0;
   }
   }
   

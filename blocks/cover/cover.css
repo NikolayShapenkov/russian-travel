@@ -4,28 +4,26 @@
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
-    max-width: 1184px;
+    max-width: 1184px; /* Яна, спасибо за ревью!)))*/
   }
   @media screen and (max-width: 1204px) {
     .cover {
     max-width: 1024px;
     }
     }
-  @media screen and (max-width: 1024px) {
-    .cover {
-    max-width: 928px;
-    }
-    } 
+
   @media screen and (max-width: 970px) {
     .cover {
     max-width: 768px;
     }
     }
+
   @media screen and (max-width: 750px) {
     .cover {
     max-width: 540px;
     }
-    }      
+    }
+
   @media screen and (max-width: 425px) {
     .cover {
     max-width: 320px;
